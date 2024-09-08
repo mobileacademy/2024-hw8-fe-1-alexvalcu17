@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+    margin-top: 20px;
+    text-shadow: 2px 2px #dddddd;
+}
+
+label {
+    font-size: 1.2em;
+    color: #555;
+    margin-right: 10px;
+    margin-left: 3vw;
+}
+
+select, input[type="number"] {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 0vw;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #30cf27;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #4cae4c;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+table {
+    display: inline-block;
+    justify-content: center;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+td {
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+td.closed {
+    background-color: #4A752C;
+}
+
+td:hover {
+    background-color: #5A8A3C;
+}
+
+td.opened {
+    background-color: #D7B899;
+    cursor: pointer
+}
+
+td.bomb {
+    background-color: red;
+}
+
+td.flagged {
+    background-color: yellow;
+    cursor: default;
+}
+
+td.flagged:hover {
+    background-color: rgb(203, 203, 27);
+    cursor: pointer;
+}
+
