@@ -4,11 +4,14 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "start": "serve src"
+        "start": "serve src"
     },
     "keywords": [],
     "author": "",
     "devDependencies": {
-      "serve": "^11.3.0"
+        "serve": "^11.3.0"
+    },
+    "dependencies": {
+        "fe-hw1-minesweeper": "file:"
     }
-  }
+}
